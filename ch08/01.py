@@ -20,11 +20,11 @@ def set_contact():
     return contact
 
 def print_menu():
-    print("1. 연락처 입력")
-    print("2. 연락처 출력")
-    print("3. 연락처 삭제")
-    print("4. 종료")
-    menu = input("메뉴선택: ")
+    print("1. İletişim bilgilerinizi girin")
+    print("2. Kontak çıkışı")
+    print("3. Bir kişiyi sil")
+    print("4. son")
+    menu = input("Menü seçimi:  ")
     return int(menu)
 
 def run():
